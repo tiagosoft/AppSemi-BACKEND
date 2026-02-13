@@ -2,7 +2,8 @@
 Si el sistema empieza a crecer y más usuarios lo usan al mismo tiempo, ¿qué 3 mejoras harías primero y por qué?
 
 -Usaria lazy loading para traer los datos a medida que se van necesitando ya que habrían muchos usuarios
--Usaria 
+-Usaria mas validaciones para no crear datos basura
+-Haria una actualización del backen y el front de angular 15 a la ultima versio y también actualizaría el backen de .NET 9 a la ultima version
 2.
 Menciona tres buenas prácticas que aplicaste en Angular en esta solución.
 -Usar arquitectura por capas para asi poder tener las responsailidades separadas
