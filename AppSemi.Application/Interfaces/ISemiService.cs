@@ -10,5 +10,9 @@ namespace AppSemi.Application.Interfaces
     public interface ISemiService
     {
         Task<IEnumerable<Patients>> GetPatients();
+        Task<int> CreateOrder(OrdersDTO request);
+        Task<IEnumerable<Orders>> GetOrders();
+        Task<IEnumerable<Exams>> GetExams();
+        Task<IEnumerable<OrdersDetail>> GetOrdersDetail(OrdersDetailDTO request);
     }
 }
