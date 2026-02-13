@@ -1,0 +1,10 @@
+1.
+Si el sistema empieza a crecer y más usuarios lo usan al mismo tiempo, ¿qué 3 mejoras harías primero y por qué?
+
+-Usaria lazy loading para traer los datos a medida que se van necesitando ya que habrían muchos usuarios
+-Usaria 
+2.
+Menciona tres buenas prácticas que aplicaste en Angular en esta solución.
+-Usar arquitectura por capas para asi poder tener las responsailidades separadas
+-Usar nombres para variables de acuerdo a lo que se esta usando
+-Usar cors para que solo se permita acceso al backend desde ciertos dominios
