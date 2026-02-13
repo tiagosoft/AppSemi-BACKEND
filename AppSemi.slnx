@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AppSemi.Application/AppSemi.Application.csproj" />
+  <Project Path="AppSemi.Domain/AppSemi.Domain.csproj" />
+  <Project Path="AppSemi.Infrastructure/AppSemi.Infrastructure.csproj" />
+  <Project Path="AppSemi/AppSemi.csproj" />
+</Solution>

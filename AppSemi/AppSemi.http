@@ -1,0 +1,6 @@
+@AppSemi_HostAddress = http://localhost:5285
+
+GET {{AppSemi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
