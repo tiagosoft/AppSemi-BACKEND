@@ -22,6 +22,10 @@ namespace AppSemi.Application.Services
         {
             try
             {
+                if (request.AttentionDate > DateTime.Now)
+                {
+                    throw new ApplicationException("La fecha de atención no puede serfutura");
+                }
                 var orderId = await _iSemiRepository.CreateOrder(request);
                 return orderId;
             }
